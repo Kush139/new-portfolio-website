@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-delay {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animations */
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 1s ease-out;
+}
+
+.animate-fade-in-delay {
+  animation: fade-in-delay 1.5s ease-out;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar - Black and Gold theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #fbbf24;
+}
+
+/* Hide default cursor on interactive elements when custom cursor is active */
+body {
+  cursor: none;
+}
+
+a,
+button,
+[role="button"] {
+  cursor: none;
+}
+
+/* Ensure text is selectable */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div {
+  cursor: text;
+}
+
+/* Input fields should show text cursor */
+input,
+textarea {
+  cursor: text !important;
+}
+
+/* Additional black and gold styling */
+.bg-black-gold {
+  background: linear-gradient(135deg, #000000 0%, #1e293b 25%, #f59e0b 50%, #1e293b 75%, #000000 100%);
+}
+
+.text-gold {
+  color: #f59e0b;
+}
+
+.border-gold {
+  border-color: #f59e0b;
+}
+
+/* Glow effects for gold elements */
+.glow-gold {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+}
+
+.glow-gold:hover {
+  box-shadow: 0 0 30px rgba(245, 158, 11, 0.5);
+}
