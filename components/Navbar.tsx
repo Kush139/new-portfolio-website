@@ -42,15 +42,14 @@ export default function Navbar() {
     }
   }
 
-  // Handle resume download
   const handleResumeDownload = () => {
-    const link = document.createElement("a")
-    link.href = "/resume.pdf" // This is the public URL
-    link.download = "Kush_Madan_Resume.pdf" // This is the filename for the user
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-  }
+    const link = document.createElement("a");
+    link.href = "/resume/Kush_Madan_Resume.pdf"; // Public URL path relative to your server root
+    link.download = "Kush_Madan_Resume.pdf";    // Filename for user download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   const navItems = [
     { id: "home", label: "Home" },
