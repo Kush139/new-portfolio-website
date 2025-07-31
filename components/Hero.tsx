@@ -57,7 +57,7 @@ export default function Hero() {
           <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 dark:from-amber-500 dark:to-yellow-600 p-1 shadow-2xl">
             <div className="w-full h-full rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center">
               <img
-                src="/placeholder.svg?height=150&width=150"
+                src="/linkedin_pic.jpeg?height=150&width=150"
                 alt="Kush Madan"
                 className="w-full h-full rounded-full object-cover"
               />

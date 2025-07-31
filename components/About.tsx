@@ -46,13 +46,14 @@ export default function About() {
             with cutting-edge machine learning techniques.
           </p>
           <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-            When I'm not diving deep into datasets or training neural networks, you'll find me exploring the latest
-            developments in AI, contributing to open-source projects, or working on innovative solutions that bridge the
-            gap between theory and practical application.
+          Beyond the classroom, I serve in the Royal Canadian Naval Reserve, where I’ve developed critical skills in first aid, 
+          firefighting, flood control, sea survival, and tactical operations. This experience has strengthened my ability to stay calm under pressure, 
+          work effectively in diverse teams, and adapt quickly in high-stakes environments.
           </p>
           <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-            I believe in the transformative potential of data-driven insights and am always eager to tackle new
-            challenges that push the boundaries of what's possible with statistics and machine learning.
+          When I’m not analyzing data or exploring new AI tools, I enjoy hiking in nature, playing soccer, and experimenting in the kitchen. 
+          I also follow the latest breakthroughs in AI and contribute to open-source projects, always looking for ways to bridge the gap between 
+          theory and real-world impact.
           </p>
         </div>
 
@@ -60,7 +61,7 @@ export default function About() {
         <div className="relative">
           <div className="aspect-square rounded-2xl bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-indigo-900/20 dark:to-purple-900/20 p-8 flex items-center justify-center">
             <img
-              src="/placeholder.svg?height=400&width=400"
+              src="/firefighting.jpeg?height=400&width=400"
               alt="Data Science Visualization"
               className="w-full h-full object-cover rounded-xl"
             />
